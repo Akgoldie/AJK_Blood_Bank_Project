@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>AJK Blood Bank</h1>
+      <nav>
+        <ul>
+          <li><a href="Home_page.html">Home</a></li>
+          <li><a href="showdonor">Donors</a></li>
+          <li><a href="Aboutus_page.html">About US</a></li>
+          <li><a href="Contact_page.html">Contact</a></li>
+          <li><a href="Login_page.html">Login</a></li>
+          <li><a href="Signup_page.html">Signup</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Contact Us</h2>
+        <form action="contact_reg_servlet" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      <br><br>
+
+
+    <div class="div_con">
+          <h1>Contact Us</h1>
+    <p>Feel free to contact us if you have any questions or concerns about our blood bank.</p>
+    <ul>
+      <li><strong>Address:</strong> No:1, Firat Floor, Bhavani Nagar, Thanjavur - 613 004</li>
+      <li><strong>Phone:</strong> 240 855</li>
+      <li><strong>Email:</strong> Ak@mybloodbank.com</li>
+    </ul>
+      </div>
+    </main>
+    <footer>
+        <p>&copy; AJK Blood Bank, Thanjavur </p>
+      </footer>
+  </body>
+</html>
