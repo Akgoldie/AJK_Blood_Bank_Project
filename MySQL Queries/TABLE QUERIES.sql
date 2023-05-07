@@ -1,0 +1,1 @@
+SELECT * FROM bloodbank.bloodbank_reg_table;
